@@ -1,9 +1,9 @@
 import { colors } from "@/constants";
 import React from "react";
-import { Text } from "react-native";
+import { View, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function SongsScreen() {
+export default function PlaylistScreen() {
   return (
     <SafeAreaView
       style={{
@@ -13,7 +13,7 @@ export default function SongsScreen() {
         backgroundColor: colors.background,
       }}
     >
-      <Text>Songs Screen</Text>
+      <Text>Playlist Screen</Text>
     </SafeAreaView>
   );
 }
